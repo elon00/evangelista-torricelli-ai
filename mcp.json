@@ -1,0 +1,51 @@
+{
+  "mcpServers": {
+    "evangelista-torricelli-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "TORRICELLI",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "calculate_mercury_barometric_height",
+          "description": "Computes atmospheric air column weight supported by mercury column (h = P / rho g)",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "altitude_meters": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "altitude_meters"
+            ]
+          }
+        },
+        {
+          "name": "solve_torricelli_efflux_speed",
+          "description": "Calculates fluid jet exit velocity from tank orifice (v = sqrt(2gh))",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "liquid_height_m": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "liquid_height_m"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
