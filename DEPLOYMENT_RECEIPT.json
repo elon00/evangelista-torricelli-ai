@@ -1,0 +1,14 @@
+{
+  "project": "evangelista-torricelli-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "2q736eos6kcj66X2xnxvBFdpFD4h6Nf6qE1P7yEzwXCM",
+  "vault_account": "2tN3K2iv8r8JoZNagWUkr5e1rL5EQZgFYwXiRf5e4EEA",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "3UAujkYsnqsonmX3jRmXYv4WooqJv8WcCQyjEhrGwy5d7zFiMQWxJodBxreBfJRH95tkqWtRNCkqdkyrxnjAs6Du",
+  "account_tx": "5yVr6Cx8rzb3ZzHw1ySVNe6J3Z1eaRZZ29Js5Dt9PLHGMHr5FzoiskQtdDCyuSmcewsBE1G8dXeXxohUzpUaZ9Wd",
+  "mint_tx": "2z7Y3WTtfhy69qY76RKxiLE7QAB8SobGJ3ayLgs6PVbXKEYUyVnraamvpevJnnVhrFCVmicwbiap1F9YBrtuqxZt",
+  "solana_explorer_mint": "https://explorer.solana.com/address/2q736eos6kcj66X2xnxvBFdpFD4h6Nf6qE1P7yEzwXCM?cluster=devnet",
+  "timestamp": "2026-10-26 16:31:22 UTC"
+}
